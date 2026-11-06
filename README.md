@@ -17,7 +17,7 @@ icons/          favicon.svg (rounded) and icon-512.svg (maskable)
 **Next.js / Vite** (dailies, icke-scores):
 
 ```sh
-pnpm add github:niffitek/brand#v0.1.0
+pnpm add github:niffitek/brand#v0.1.1
 ```
 
 ```css
@@ -40,8 +40,8 @@ import { DailiesWordmark, NiffiLogo } from "@niffi/brand/react";
 **Plain HTML** (niffi.dev, no build step), from the jsDelivr GitHub CDN:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/niffitek/brand@v0.1.0/fonts.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/niffitek/brand@v0.1.0/html/marks.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/niffitek/brand@v0.1.1/fonts.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/niffitek/brand@v0.1.1/html/marks.css">
 ```
 
 Then paste the gradient `<defs>` and the mark you need from `html/marks.html`.
@@ -67,13 +67,12 @@ never all three. On a light background use Violet instead of Lavender for anythi
 
 | Role | Face | Where |
 | --- | --- | --- |
-| Display, wordmarks | Bricolage Grotesque, variable (weight 200-800, optical size 12-96) | headlines, the marks |
+| Display, wordmarks | Bricolage Grotesque, variable (weight 200-800, width 75-100, optical size 12-96) | headlines, the marks |
 | Body | Outfit, variable | running text and UI in the apps |
 | Mono | JetBrains Mono, variable | meta lines, code, data; DM Mono 400/500 is the softer alternative |
 
 Headlines are Bricolage 800 with letter-spacing between -0.03em and -0.05em. For condensed
-headlines use `font-stretch: 75%` (niffi.dev does this with the width axis from Google Fonts; the
-shipped file carries weight and optical size only, so condensed needs the `wdth` file added).
+headlines use `font-stretch: 75%`, the way niffi.dev sets its section titles.
 
 ## The comet
 

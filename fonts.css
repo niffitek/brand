@@ -2,11 +2,12 @@
    from node_modules (Next/Vite bundlers) and from a CDN such as
    https://cdn.jsdelivr.net/gh/niffitek/brand@v0.1.0/fonts.css alike. */
 
-/* Display and wordmarks. Variable: weight 200-800, optical size 12-96. */
+/* Display and wordmarks. Variable: weight 200-800, width 75-100, optical size 12-96. */
 @font-face {
   font-family: 'Bricolage Grotesque';
   font-style: normal;
   font-weight: 200 800;
+  font-stretch: 75% 100%;
   font-display: swap;
   src: url(./fonts/bricolage-grotesque-latin.woff2) format('woff2-variations');
 }
