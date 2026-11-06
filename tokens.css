@@ -1,0 +1,16 @@
+/* niffi brand tokens. Plain custom properties, framework-free. Load fonts.css for the faces. */
+:root {
+  --niffi-night: #16121F;    /* main background */
+  --niffi-dusk: #231D33;     /* panels, cards, hover on night */
+  --niffi-deep: #1C1729;     /* deeper panels, comet head ring */
+  --niffi-stardust: #F6F4FA; /* text and borders on night */
+  --niffi-mist: #A8A1B8;     /* secondary text */
+  --niffi-lavender: #C4A7F0; /* brand color: comet head, buttons, shadows */
+  --niffi-violet: #7C5CC4;   /* icons, lavender on light backgrounds */
+  --niffi-ember: #F4B183;    /* comet tail, highlights */
+  --niffi-mint: #9EE0C4;     /* links, success, call-to-action */
+
+  --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-sans: 'Outfit', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}

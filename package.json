@@ -1,0 +1,24 @@
+{
+  "name": "@niffi/brand",
+  "version": "0.1.0",
+  "description": "niffi brand: tokens, fonts, wordmarks and icons shared by niffi.dev, dailies and icke-scores",
+  "license": "MIT",
+  "repository": "github:niffitek/brand",
+  "type": "module",
+  "sideEffects": ["*.css"],
+  "exports": {
+    "./tokens.css": "./tokens.css",
+    "./theme.css": "./theme.css",
+    "./fonts.css": "./fonts.css",
+    "./react": "./react/index.tsx",
+    "./html/marks.css": "./html/marks.css",
+    "./icons/*": "./icons/*"
+  },
+  "files": ["tokens.css", "theme.css", "fonts.css", "fonts", "react", "html", "icons"],
+  "peerDependencies": {
+    "react": ">=19"
+  },
+  "peerDependenciesMeta": {
+    "react": { "optional": true }
+  }
+}

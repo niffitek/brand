@@ -1,0 +1,17 @@
+/* Tailwind v4 theme: `@import "@niffi/brand/theme.css";` after `@import "tailwindcss";`.
+   Gives bg-night, text-lavender, font-display, font-mono and so on. */
+@theme {
+  --color-night: #16121F;
+  --color-dusk: #231D33;
+  --color-deep: #1C1729;
+  --color-stardust: #F6F4FA;
+  --color-mist: #A8A1B8;
+  --color-lavender: #C4A7F0;
+  --color-violet: #7C5CC4;
+  --color-ember: #F4B183;
+  --color-mint: #9EE0C4;
+
+  --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-sans: 'Outfit', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}

@@ -1,0 +1,39 @@
+/* The niffi marks for plain HTML. Markup and gradient defs are in marks.html. Load fonts.css too. */
+
+/* Base wordmark: "niffı" or "dailıes". Size it with font-size. */
+.mark {
+  font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  line-height: 1;
+  font-variant-ligatures: none;
+  font-variation-settings: 'opsz' 96;
+  display: inline-flex;
+  align-items: baseline;
+  white-space: nowrap;
+  color: #F6F4FA;
+}
+.mark .ff { letter-spacing: -0.06em; }
+.mark .i { position: relative; margin-left: 0.03em; }
+.mark .comet { position: absolute; width: 1.2em; height: 0.6em; left: calc(50% - 1.04em); top: -0.17em; overflow: visible; pointer-events: none; }
+.mark circle { fill: #C4A7F0; stroke: #16121F; stroke-width: 3; paint-order: stroke; }
+.mark.dailies { color: inherit; }
+.mark.dailies circle { stroke: #1C1729; }
+
+/* icke cup: red "icke" with a volleyball comet, green "cup". The tail sticks out to the left. */
+.icke {
+  font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  font-variant-ligatures: none;
+  font-variation-settings: 'opsz' 96;
+  display: inline-flex;
+  align-items: baseline;
+  white-space: nowrap;
+  color: #DA333C;
+  padding-left: 0.9em;
+}
+.icke .cup { color: #149567; margin-left: 0.22em; }
+.icke .i { position: relative; }
+.icke .comet { position: absolute; width: 1.3em; height: 0.65em; left: calc(50% - 1.12em); top: -0.3em; overflow: visible; pointer-events: none; }

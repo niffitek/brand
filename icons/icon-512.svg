@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- maskable app icon: full-bleed Night, artwork scaled to 80% so it survives any mask shape. -->
+  <defs>
+    <linearGradient id="t" x1="1" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#C4A7F0"/>
+      <stop offset="0.5" stop-color="#F4B183" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#F4B183" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="#16121F"/>
+  <g transform="translate(51.2 51.2) scale(0.8)">
+    <rect x="300" y="208" width="76" height="236" rx="12" fill="#F6F4FA"/>
+    <g transform="translate(34 70) scale(5.625)">
+      <polygon points="56.8,19.3 51.2,28.7 14,0" fill="url(#t)"/>
+      <circle cx="54" cy="24" r="5.5" fill="#C4A7F0" stroke="#16121F" stroke-width="3" paint-order="stroke"/>
+    </g>
+  </g>
+</svg>
